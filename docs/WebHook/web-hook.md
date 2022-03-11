@@ -150,10 +150,9 @@ Performed when deposit was update. Request example:
     "amount": "0.000600000000000000",             // amount of deposit
     "createdAt": 1593437922,                      // timestamp of deposit
     "currency": "Bitcoin",                        // deposit currency
-    "description": "",                            // deposit description
+    "description": "update",                      // deposit description
     "fee": "0.000000000000000000",                // deposit fee
     "memo": "",                                   // deposit memo
-    "method": 1,                                  // called method 1 - deposit, 2 - withdraw
     "network": "TRC20",                           // if currency is multi network
     "status": 15,                                 // transactions status
     "ticker": "BTC",                              // deposit currency ticker
